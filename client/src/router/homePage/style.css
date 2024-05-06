@@ -1,0 +1,72 @@
+.contianer {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 10px);
+  caret-color: transparent;
+}
+.contianer .left {
+  background-color: whitesmoke;
+  width: 100%;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+
+}
+.contianer .left .title {
+  height: 100px;
+}
+.contianer .left  .sliderContainer{
+  z-index: 99;
+}
+.contianer .left .red {
+  background-color: rgb(224, 224, 224);
+  height: 500px;
+  width: 100%;
+  border-top-left-radius: 500px; 
+  border-top-right-radius: 500px;
+  position: absolute;
+  bottom: 0;
+  
+}
+.contianer .right {
+  width: 100%;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.contianer .right .imgContainer {
+  width: 115%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.contianer .right .imgContainer img {
+  width: 115%;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+.LoginButton {
+  margin: 0;
+  align-items: center;
+  background-image: url(https://www.toweroffantasy-global.com/images/fab/backHome.png);
+  background-repeat: no-repeat;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: Oxanium;
+  font-size: 16.1622px;
+  height: 50px;
+  justify-content: center;
+  outline-color: white;
+  text-decoration: none solid white;
+  text-transform: uppercase;
+  width: 260.844px;
+  position: relative;
+  right: -200px;
+  top: 50px;
+}
